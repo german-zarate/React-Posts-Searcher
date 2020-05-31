@@ -1,0 +1,34 @@
+@import 'variables'
+@import '~bootstrap/scss/bootstrap'
+
+html, body
+    height: 100%
+
+body
+    font-size: 22px
+
+#app
+    position: relative
+    min-height: 100vh
+    padding-bottom: $footerHeight
+
+header
+    background: $secondary
+    color: #fff
+    padding: .3em .5em .1em .5em
+    
+    h1
+        font-size: 1.3em
+
+footer
+    height: $footerHeight
+    position: absolute
+    bottom: 0
+    left: 0
+    width: 100%
+    text-align: center
+    background: $secondary
+    color: #fff
+
+.card
+    @extend .shadow-sm
